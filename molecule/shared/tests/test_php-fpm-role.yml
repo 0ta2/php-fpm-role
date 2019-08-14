@@ -1,0 +1,13 @@
+---
+package:
+  php-fpm:
+    installed: true
+
+process:
+  php-fpm:
+    running: true
+
+service:
+  php-fpm:
+    enabled: true
+    running: true
